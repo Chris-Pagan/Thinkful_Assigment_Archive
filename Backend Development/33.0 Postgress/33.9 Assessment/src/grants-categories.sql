@@ -1,0 +1,1 @@
+select distinct category from grants group by grant_id order by category;

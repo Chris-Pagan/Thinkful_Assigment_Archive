@@ -1,0 +1,1 @@
+select fiscal_year, count(grant_id), min(amount), max(amount) from grants group by fiscal_year order by fiscal_year desc;
